@@ -96,7 +96,7 @@ public class FirstExam {
 			StringBuffer result = new StringBuffer();
 			String line = null;
 			while((line = rd.readLine()) != null) {
-				result.append(line);
+				result.append(line + "\n");
 			}
 			System.out.println(result.toString());
 		} catch (ClientProtocolException e) {
